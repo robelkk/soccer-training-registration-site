@@ -23,7 +23,7 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
-        <Image src="/soccer-training-hero.png" alt="Children practicing soccer skills with a coach on an outdoor field" fill priority sizes="100vw" className="hero-image" />
+        <Image src="/soccer-training-hero.webp" alt="Children practicing soccer skills with a coach on an outdoor field" fill priority sizes="100vw" className="hero-image" />
         <div className="hero-overlay" />
         <div className="hero-content">
           <p className="eyebrow"><Sparkles size={16} /> Registration is open</p>
