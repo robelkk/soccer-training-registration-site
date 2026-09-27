@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Youth Soccer Training Academy | Seattle",
-  description: "Positive, age-appropriate soccer training for children ages 5–15 in the Seattle area.",
+  title: "RainRise Soccer Academy | Seattle",
+  description: "Train with purpose and play with confidence through positive soccer training for children ages 5–15 in the Seattle area.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
