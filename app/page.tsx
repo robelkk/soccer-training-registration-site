@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Youth Soccer Training home">
-          <span className="brand-mark">YS</span>
-          <span><strong>Youth Soccer</strong><small>Training Academy</small></span>
+        <a className="brand" href="#top" aria-label="RainRise Soccer Academy home">
+          <span className="brand-mark">RR</span>
+          <span><strong>RainRise Soccer</strong><small>Academy</small></span>
         </a>
         <nav aria-label="Main navigation">
           <a href="#programs">Programs</a><a href="#approach">Our approach</a><a href="#register">Register</a>
@@ -27,7 +27,7 @@ export default function Home() {
         <div className="hero-overlay" />
         <div className="hero-content">
           <p className="eyebrow"><Sparkles size={16} /> Registration is open</p>
-          <h1>Strong skills.<br/><em>Confident players.</em></h1>
+          <h1>Train with purpose.<br/><em>Play with confidence.</em></h1>
           <p className="hero-copy">Positive, age-appropriate soccer training where every child gets more touches, clear coaching, and room to grow.</p>
           <div className="hero-actions">
             <a className="primary-cta" href="#register">Save a training spot <ArrowRight size={18} /></a>
@@ -67,7 +67,7 @@ export default function Home() {
         <RegistrationForm />
       </section>
 
-      <footer><div className="brand footer-brand"><span className="brand-mark">YS</span><span><strong>Youth Soccer</strong><small>Training Academy</small></span></div><p>Seattle area youth soccer training</p><p>© 2026 Youth Soccer Training Academy</p></footer>
+      <footer><div className="brand footer-brand"><span className="brand-mark">RR</span><span><strong>RainRise Soccer</strong><small>Academy</small></span></div><p>Seattle area youth soccer training</p><p>© 2026 RainRise Soccer Academy</p></footer>
     </main>
   );
 }
